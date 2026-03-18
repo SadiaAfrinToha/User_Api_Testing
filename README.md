@@ -29,16 +29,21 @@ npm init -y
 npm install express
 notepad server.js
 node server.js
+```
 
 ### **2. Check server is running in browser:**
+```
 http://localhost:3000/users
+```
 
 ### 3. Run in postman
 Use "User API Testing Project.postman_collection.json" file
 
 ### 4. Run in newman (optional)
+```
 npm install -g newman
 newman run <your-collection-file>.json
+```
 
 ## Testing
 - Test scripts included in Postman collection
