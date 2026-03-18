@@ -18,10 +18,27 @@ A complete REST API project with CRUD operations, tested using Postman. This pro
 | /users/:id | DELETE | Delete user |
 
 ## How to Run
-1. Clone repo
-2. `npm install`
-3. `node server.js`
-4. Use Postman to test endpoints
+
+### 1. Create Project Folder
+- Open terminal / command prompt  
+- Run:
+```bash
+mkdir api-testing-project
+cd api-testing-project
+npm init -y
+npm install express
+notepad server.js
+node server.js
+
+### **2. Check server is running in browser:**
+http://localhost:3000/users
+
+### 3. Run in postman
+Use "User API Testing Project.postman_collection.json" file
+
+### 4. Run in newman (optional)
+npm install -g newman
+newman run <your-collection-file>.json
 
 ## Testing
 - Test scripts included in Postman collection
